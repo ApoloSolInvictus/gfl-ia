@@ -1,0 +1,12 @@
+{
+  "name": "gfl-ia",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node --check api/chat.js && node --check api/speech.js && node --check api/transcribe.js",
+    "dev": "vercel dev"
+  }
+}
